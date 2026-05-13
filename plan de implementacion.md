@@ -1,7 +1,13 @@
-Prompt: Actua como un creador de software, quiero crear una aplicacion multiplataforma en flutter dart (y firebase utilizando vs code o Antigravity), que herramientas se requieren, ui, ux, dependencias, login, autenticacion usuario password, base de datos firestore, privider, dependencias en pubspec.yaml, antes de que proporciones codigo, quiero crear un plan de implementacion en formato markdown, para desarrollar la aplicacion "Floreria", no codigo, procedimiento paso a paso para el desarrollo 
-Flutter para Android/web/windows
+Prompt: Quiero que actúes como un desarrollador de software especializado en Flutter, Node.js, Express y MySQL, y que generes un sistema administrativo completo y profesional llamado “Florería Ajolote”. El proyecto debe funcionar en Android, Web y Windows usando Flutter con Riverpod, GoRouter y Dio, mientras que el backend debe usar Node.js + Express con JWT, MySQL, Redis y arquitectura modular profesional. Quiero una arquitectura limpia basada en Clean Architecture, Feature First, Repository Pattern y principios SOLID, separando correctamente frontend y backend en capas organizadas y mantenibles. El sistema debe incluir módulos completos para autenticación, dashboard, clientes, productos, inventario, pedidos, pagos, envíos, eventos, cupones, reportes y auditoría, con CRUDs profesionales, validaciones, filtros, paginación y manejo correcto de errores. La base de datos debe estar normalizada en 3FN, con relaciones bien definidas, migraciones, seeds, índices y auditoría automática. Implementa seguridad empresarial con JWT Access y Refresh Token, rate limiting, Helmet, CORS, validaciones con Zod y consultas parametrizadas.
 
-Estetica:
+El diseño UI/UX debe tener una estética moderna llamada “Floral Soft”, usando colores rosas suaves, lavandas y tonos pastel, con tipografías elegantes, componentes modernos, cards, dashboards, tablas administrativas y animaciones suaves. 
+
+También, la mascota es un tipo ajolote integrada en la interfaz. La app debe ser completamente responsive para desktop y móvil, usando sidebar en escritorio y bottom navigation en móvil. Genera estructura profesional de carpetas, documentación, pruebas unitarias, integración CI/CD con Docker y GitHub Actions, además de código limpio, escalable, desacoplado y listo para producción. 
+
+Antes de generar código, explica primero la arquitectura, luego la estructura del proyecto, el modelado de base de datos, backend, frontend, UI/UX, seguridad, testing y finalmente la implementación completa.
+
+
+Como debe de ser la Estetica:
 
 Quiero que la estetica sea suave, moderno pero bonito y muy floral, muchos tonos rosados, con morado y azules muy bajitos, algo agradable a la vista, floral, que se note que es de una floreria, el nombre es "Floreria Ajolote" y como es un ajolote la mascota de la pagina, quiero que el color rosa sea el predominante en la pagina 
 
