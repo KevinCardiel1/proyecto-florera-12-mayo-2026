@@ -1,47 +1,3 @@
-Prompt: Quiero que actúes como un desarrollador de software especializado en Flutter, Node.js, Express y MySQL, y que generes un sistema administrativo completo y profesional llamado “Florería Ajolote”. El proyecto debe funcionar en Android, Web y Windows usando Flutter con Riverpod, GoRouter y Dio, mientras que el backend debe usar Node.js + Express con JWT, MySQL, Redis y arquitectura modular profesional. Quiero una arquitectura limpia basada en Clean Architecture, Feature First, Repository Pattern y principios SOLID, separando correctamente frontend y backend en capas organizadas y mantenibles. El sistema debe incluir módulos completos para autenticación, dashboard, clientes, productos, inventario, pedidos, pagos, envíos, eventos, cupones, reportes y auditoría, con CRUDs profesionales, validaciones, filtros, paginación y manejo correcto de errores. La base de datos debe estar normalizada en 3FN, con relaciones bien definidas, migraciones, seeds, índices y auditoría automática. Implementa seguridad empresarial con JWT Access y Refresh Token, rate limiting, Helmet, CORS, validaciones con Zod y consultas parametrizadas.
-
-El diseño UI/UX debe tener una estética moderna llamada “Floral Soft”, usando colores rosas suaves, lavandas y tonos pastel, con tipografías elegantes, componentes modernos, cards, dashboards, tablas administrativas y animaciones suaves. 
-
-También, la mascota es un tipo ajolote integrada en la interfaz. La app debe ser completamente responsive para desktop y móvil, usando sidebar en escritorio y bottom navigation en móvil. Genera estructura profesional de carpetas, documentación, pruebas unitarias, integración CI/CD con Docker y GitHub Actions, además de código limpio, escalable, desacoplado y listo para producción. 
-
-Antes de generar código, explica primero la arquitectura, luego la estructura del proyecto, el modelado de base de datos, backend, frontend, UI/UX, seguridad, testing y finalmente la implementación completa.
-
-
-Como debe de ser la Estetica:
-
-Quiero que la estetica sea suave, moderno pero bonito y muy floral, muchos tonos rosados, con morado y azules muy bajitos, algo agradable a la vista, floral, que se note que es de una floreria, el nombre es "Floreria Ajolote" y como es un ajolote la mascota de la pagina, quiero que el color rosa sea el predominante en la pagina 
-
-NO debe verse:
-* escolar
-* básico
-* amateur
-* saturado de colores
-* fuera de la estetica ya establecida
-  
-El sistema debe permitir:
-* Gestión de clientes
-* Gestión de productos florales
-* Gestión de categorías
-* Gestión de proveedores
-* Gestión de lotes e inventario
-* Gestión de pedidos
-* Gestión de pagos
-* Gestión de envíos
-* Gestión de eventos
-* Gestión de ocasiones especiales
-* Personalización de arreglos florales
-* Panel administrativo moderno
-* Reportes
-* Estadísticas
-* Control de stock
-* Historial de pedidos
-* Gestión de estados
-* Seguimiento de entregas 
-
-
-Dame un plan de implementacion definitivo con todo ya incluido porfavor, todo lo que te pedi anteriormente, respetando la estetica ya dicha porfavor 
-
-
 # 🌸 Plan de Implementación Definitivo — Florería Ajolote
 
 **Frontend:** Flutter (Android / Web / Windows) | **Backend:** Node.js + Express + JWT | **Base de Datos:** MySQL  
@@ -393,4 +349,50 @@ Dame un plan de implementacion definitivo con todo ya incluido porfavor, todo lo
 
 > 🌸 *"Este plan garantiza un sistema administrativo robusto, escalable y profesional, envuelto en una experiencia visual que respira frescura, calidez y elegancia floral. El ajolote no es un adorno: es un guía funcional que humaniza cada interacción, mientras la arquitectura técnica mantiene el rendimiento, la seguridad y la mantenibilidad de un producto empresarial de clase mundial."*
 
-¿Deseas que genere el **diagrama ER detallado**, los **contratos de API por módulo**, o la **guía de implementación responsive paso a paso** como siguiente entregable?
+
+Prompt: 
+
+Quiero que actúes como un desarrollador de software especializado en Flutter, Node.js, Express y MySQL, y que generes un sistema administrativo completo y profesional llamado “Florería Ajolote”. El proyecto debe funcionar en Android, Web y Windows usando Flutter con Riverpod, GoRouter y Dio, mientras que el backend debe usar Node.js + Express con JWT, MySQL, Redis y arquitectura modular profesional. Quiero una arquitectura limpia basada en Clean Architecture, Feature First, Repository Pattern y principios SOLID, separando correctamente frontend y backend en capas organizadas y mantenibles. El sistema debe incluir módulos completos para autenticación, dashboard, clientes, productos, inventario, pedidos, pagos, envíos, eventos, cupones, reportes y auditoría, con CRUDs profesionales, validaciones, filtros, paginación y manejo correcto de errores. La base de datos debe estar normalizada en 3FN, con relaciones bien definidas, migraciones, seeds, índices y auditoría automática. Implementa seguridad empresarial con JWT Access y Refresh Token, rate limiting, Helmet, CORS, validaciones con Zod y consultas parametrizadas.
+
+El diseño UI/UX debe tener una estética moderna llamada “Floral Soft”, usando colores rosas suaves, lavandas y tonos pastel, con tipografías elegantes, componentes modernos, cards, dashboards, tablas administrativas y animaciones suaves. 
+
+También, la mascota es un tipo ajolote integrada en la interfaz. La app debe ser completamente responsive para desktop y móvil, usando sidebar en escritorio y bottom navigation en móvil. Genera estructura profesional de carpetas, documentación, pruebas unitarias, integración CI/CD con Docker y GitHub Actions, además de código limpio, escalable, desacoplado y listo para producción. 
+
+Antes de generar código, explica primero la arquitectura, luego la estructura del proyecto, el modelado de base de datos, backend, frontend, UI/UX, seguridad, testing y finalmente la implementación completa.
+
+
+Como debe de ser la Estetica:
+
+Quiero que la estetica sea suave, moderno pero bonito y muy floral, muchos tonos rosados, con morado y azules muy bajitos, algo agradable a la vista, floral, que se note que es de una floreria, el nombre es "Floreria Ajolote" y como es un ajolote la mascota de la pagina, quiero que el color rosa sea el predominante en la pagina 
+
+NO debe verse:
+* escolar
+* básico
+* amateur
+* saturado de colores
+* fuera de la estetica ya establecida
+  
+El sistema debe permitir:
+* Gestión de clientes
+* Gestión de productos florales
+* Gestión de categorías
+* Gestión de proveedores
+* Gestión de lotes e inventario
+* Gestión de pedidos
+* Gestión de pagos
+* Gestión de envíos
+* Gestión de eventos
+* Gestión de ocasiones especiales
+* Personalización de arreglos florales
+* Panel administrativo moderno
+* Reportes
+* Estadísticas
+* Control de stock
+* Historial de pedidos
+* Gestión de estados
+* Seguimiento de entregas 
+
+
+Dame un plan de implementacion definitivo con todo ya incluido porfavor, todo lo que te pedi anteriormente, respetando la estetica ya dicha porfavor 
+
+
